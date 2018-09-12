@@ -182,3 +182,133 @@ section {
 #arrow-down:hover, #arrow-down:focus {
   color: #E03838
 }
+
+
+/* =====================================
+  Content Boxes
+======================================*/
+
+.content-box-lg {
+  padding: 120px 0;
+}
+
+.content-box-md {
+  padding: 100px 0;
+}
+
+.content-box-sm {
+  padding: 90px 0;
+}
+
+/* =====================================
+  Headings
+======================================*/
+
+.heading h2 {
+  margin: 0 0 15px 0;
+  font-size: 28px;
+  line-height: 45px;
+}
+
+/* =====================================
+  About
+======================================*/
+
+#about-copy h2, #about-body p{
+  text-align: center;
+}
+
+#about-copy h2 {
+  margin: 20px 0 35px 0;
+}
+
+#about-info {
+  margin: 30px 0;
+}
+
+#about-info h3, h4{
+  font-family:  "Open Sans", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Sans", sans-serif;
+  text-align: center;
+}
+
+#about-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+#about-info h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.about-events {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#about-02 .container-fluid {
+  padding: 0;
+}
+
+.row.no-gutters [class*=col-] {
+  padding: 0;
+}
+
+.about-events img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* overlay effect */
+
+.about-events-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(14, 14, 19, 0.9);
+  cursor: -webkit-pointer;
+  cursor: pointer;
+  opacity: 0;
+  -webkittransition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* item details effect */
+
+.about-events-title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.about-events-title h4 {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+  -webkittransition: all .8s;
+  transition: all .8s;
+}
+
+/* show overlay on mouse over */
+
+.about-events:hover .about-events-overlay {
+  opacity: 1;
+}
+
+.about-events:hover .about-events-title h4 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
