@@ -297,6 +297,19 @@
     min-height: 100px;
   }
 
+  .guest-info {
+    padding: 30px 10px;
+  }
+
+  .guest-info h6 {
+    font-size: 12px;
+  }
+
+  .guest-info p {
+    color: #E03838;
+    font-size: 9px;
+  }
+
   /* shedule */
   #time-table h5 {
     font-size: 13px;
