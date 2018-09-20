@@ -38,18 +38,30 @@
     margin: 10px 0 10px 30px;
     color: #212226;
   }
-  /* home */
-  #home-heading h1 {
-    font-size: 41px;
+
+  /* about */
+  #about-body p {
+    font-size: 12px;
   }
-  #home-text p {
-    font-size: 13px;
+
+  #about-info {
+    margin: 45px 0;
   }
-  /* generic */
-  .btn-general {
-    padding: 8px 35px;
-    font-size: 10px;
+
+  /* events */
+  .event-summary p {
+    font-size: 12px;
   }
+
+  /* sponsors */
+  #main-sponsors h3{
+    font-size: 18px;
+  }
+
+  #backups h5 {
+    font-size: 15px;
+  }
+
 }
 
 /* small devices */
@@ -68,20 +80,8 @@
     margin: 10px 0 10px 30px;
     color: #212226;
   }
-  /* home */
-  #home-heading h1 {
-    font-size: 22px;
-  }
-  #home-text p {
-    font-size: 13px;
-    line-height: 15px;
-    margin: 8px 2px 13px 2px;
-  }
-  /* generic */
-  .btn-general {
-    padding: 8px 25px 6px 25px;
-    font-size: 10px;
-  }
+
+
   .content-box-lg {
     padding: 96px 0;
   }
@@ -112,20 +112,7 @@
     margin: 10px 0 10px 20px;
     color: #212226;
   }
-  /* home */
-  #home-heading h1 {
-    font-size: 20px;
-  }
-  #home-text p {
-    font-size: 11px;
-    line-height: 16px;
-    margin: 8px 10px 10px 10px;
-  }
-  /* generic */
-  .btn-general {
-    padding: 8px 25px 6px 25px;
-    font-size: 10px;
-  }
+  
   .content-box-lg {
     padding: 96px 0;
   }
