@@ -441,6 +441,12 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
   margin: 10px 0 45px 0;
 }
 
+.main-guest img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 .guest-icon-lg {
   height: 200px;
   width: auto;
@@ -449,6 +455,12 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 .other-guest{
   margin: 8px;
   position: relative;
+}
+
+.other-guest img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .guest-overlay {
@@ -467,7 +479,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 .guest-info {
   height: 100%;
   width: 100%;
-  padding: 80px 0px;
+  padding: 60px 10px;
 }
 
 .guest-info h6 {
