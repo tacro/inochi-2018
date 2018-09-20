@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Inochi Forum 2018</title>
+  <title>inochi Forum 2018</title>
 
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -14,6 +14,11 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <!-- owl carousel css -->
+  <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
 
   <!-- custom stylesheet -->
   <link rel="stylesheet" href="css/style.css">
@@ -40,7 +45,7 @@
           </a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon text-center">&#9776;</span>
         </button>
 
@@ -62,154 +67,639 @@
   <section id="home">
     <!-- background video -->
     <video id="home-bg-video" poster="video/default.jpg" autoplay loop muted>
-      <source src="" type="video/mp4">
-        <source src="" type="video/ogg">
-          <source src="" type="video/webm">
-          </video>
+    <source src="" type="video/mp4">
+    <source src="" type="video/ogg">
+    <source src="" type="video/webm">
+    </video>
 
-          <!-- Overlay -->
-          <div id="home-overlay"></div>
+    <!-- Overlay -->
+    <div id="home-overlay"></div>
 
-          <!-- home content -->
-          <div id="home-content">
-            <div id="home-content-inner" class="text-center">
+    <!-- home content -->
+    <div id="home-content">
+      <div id="home-content-inner" class="text-center">
 
-              <div id="home-heading">
-                <h1 id="home-heading-1">Just <span>Solve</span> It,</h1><br>
-                <h1 id="home-heading-2">Go <span> Global</span> .</h1>
+        <div id="home-heading">
+          <h1 id="home-heading-1">Just <span>solve</span> it,</h1><br>
+          <h1 id="home-heading-2">Go <span> global</span> .</h1>
+        </div>
+
+        <div id="home-btn">
+          <a class="btn btn-outline-primary btn-general btn-home smooth-scroll" href="#tickets" title="Get Tickets Now" role="button">Get Tickets Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrow Down -->
+    <a href="#about" id="arrow-down" class="smooth-scroll">
+      <i class="fas fa-angle-down"></i>
+    </a>
+  </section>
+  <!-- Home ends -->
+
+  <!-- Aboout -->
+  <section id="about">
+    <div id="about-01">
+      <div class="content-box-lg">
+        <div class="heading">
+          <h2>About</h2>
+        </div>
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6">
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div id="about-copy" class="text-center">
+                <h2><span>若者</span>だから、<span>世界</span>を変える。</h2>
               </div>
+            </div>
 
-              <div id="home-btn">
-                <a class="btn btn-outline-primary btn-general btn-home smooth-scroll" href="#about" title="Get Tickets Now" role="button">Get Tickets Now</a>
+            <div class="col-md-12">
+              <div id="about-body" class="text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div id="about-info" class="text-center">
+                <h3>inochi 学生・未来フォーラム2018</h3>
+                <h4>日時：2018年11月25日(日) 12:00-18:30 (11:00開催予定)</h4>
+                <h4>会場：グランフラント北館B2F コングレコンベンションセンター</h4>
               </div>
             </div>
           </div>
 
-          <!-- Arrow Down -->
-          <a href="#about" id="arrow-down" class="smooth-scroll">
-            <i class="fas fa-angle-down"></i>
-          </a>
-        </section>
-        <!-- Home ends -->
+        </div>
+      </div>
+    </div>
 
-        <!-- Aboout -->
-        <section id="about">
-          <div id="about-02">
-            <div class="content-box-lg">
-              <div class="container">
+    <div id="about-02">
+      <div class="container-fluid">
+        <div class="row no-gutters">
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="heading">
-                      <h2>About</h2>
-                    </div>
+          <div class="col-md-12">
+            <div id="map"></div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="about-events">
+              <a href="#event-01">
+                <img src="img/about/sample.png" alt="event01">
+                <div class="about-events-overlay">
+                  <div class="about-events-title text-center">
+                    <h4>自殺対策、テクノロジーから。</h4>
                   </div>
                 </div>
-
-                <div class="row">
-                  <div class="col-md-12">
-                    <div id="about-copy">
-                      <h2>若者だから、世界を変える。</h2>
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div id="about-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div id="about-info">
-                      <h3>inochi 学生・未来フォーラム2018</h3>
-                      <h4>日時：2018年11月25日(日) 12:00-18:30 (11:00開催予定)</h4>
-                      <h4>会場：グランフラント北館B2F コングレコンベンションセンター</h4>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+              </a>
             </div>
           </div>
 
-          <div id="about-02">
-            <div class="container-fluid">
-
-              <div class="row no-gutters">
-
-                <div class="col-md-12">
-                  <div id="map"></div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="about-events">
-                    <a href="#inochi-gakusei">
-                      <img src="img/about/sample.png" alt="event01">
-
-                      <div class="about-events-overlay">
-                        <div class="about-events-title text-center">
-                          <h4>自殺予防、テクノロジーから。</h4>
-                        </div>
-                      </div>
-                    </a>
+          <div class="col-md-4">
+            <div class="about-events">
+              <a href="#event-02">
+                <img src="img/about/sample.png" alt="event02">
+                <div class="about-events-overlay">
+                  <div class="about-events-title text-center">
+                    <h4>自殺予防、テクノロジーから。</h4>
                   </div>
                 </div>
-
-                <div class="col-md-4">
-                  <div class="about-events">
-                    <a href="#wakazo">
-                      <img src="img/about/sample.png" alt="event02">
-
-                      <div class="about-events-overlay">
-                        <div class="about-events-title text-center">
-                          <h4>自殺予防、テクノロジーから。</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="about-events">
-                    <a href="#inochi-mirai">
-                      <img src="img/about/sample.png" alt="event03">
-
-                      <div class="about-events-overlay">
-                        <div class="about-events-title text-center">
-                          <h4>自殺予防、テクノロジーから。</h4>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-
-              </div>
+              </a>
             </div>
           </div>
 
-        </section>
-        <!-- About ends -->
+          <div class="col-md-4">
+            <div class="about-events">
+              <a href="#event-03">
+                <img src="img/about/sample.png" alt="event03">
+                <div class="about-events-overlay">
+                  <div class="about-events-title text-center">
+                    <h4>自殺予防、テクノロジーから。</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- About ends -->
+
+  <!-- Event 01 -->
+  <section id="event-01">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h4>Content 1.</h4>
+        <h3>inochi Gakusei Forum 2018</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="event-summary text-center">
+              <h2>自殺対策、テクノロジーから。</h2>
+              <p>inochi学生フォーラム2018では、若者が実際のヘルスケアの問題に取り組む課題解決型のアイデアコンテストを開催します。テーマは「テクノロジーを用いた自殺対策」。</p>
+              <p>最初にゲストスピーカーとして、ヘルスケア領域で起業なさっているPrusothmanさんに講演いただき、その後予選を勝ち抜いた学生たちによるアイデアコンテストに入ります。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="guests">
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Facilitator</h4>
+              <h2 class="guest-name">鈴木 寛</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
+
+          <h3>Keynote Speech</h3>
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Guest Speaker</h4>
+              <h2 class="guest-name">Prusothman Sina Raja</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
+
+          <h3>Competition</h3>
+          <h4>審査員</h4>
+            <div class="other-guests owl-carousel owl-theme">
+              <!-- Judgje 01 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>池野 文昭</h6>
+                    <p>Stanford Biodsign Advisory Director</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Judgje 02 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 2" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>山田 邦雄</h6>
+                    <p>ロート製薬株式会社代表取締役社長兼会長兼CEO</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Judgje 03 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 3" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>伊藤 次郎</h6>
+                    <p>NPO法人OVA 代表理事</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Judgje 04 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 4" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>XX XX</h6>
+                    <p>厚生労働省</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Judgje 05 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 5" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>XX XX</h6>
+                    <p>未定、調整中</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Event 01 ends -->
+
+  <!-- Event 02 -->
+  <section id="event-02">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h4>Content 2.</h4>
+        <h3>wakazo Project</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="event-summary text-center">
+              <h2>タイトル未定</h2>
+              <p>未来に向かって突き進む若者が大阪万博誘致に向けてビジョンを語り、集まった若者が語ります。</p>
+              <p>若者主体となったボトムアップ型の万博招致活動wakazoプロジェクトにおける成果報告および、世界の課題の解決に向け『ヒトとモノの関係』をテーマにした“wakazoパビリオン”の建築模型を展示予定。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="guests">
+          <h3>Special Talk</h3>
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Guest Speaker</h4>
+              <h2 class="guest-name">武部 貴則</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="wakazo-presentation">
+          <h3>Presentation</h3>
+          <div class="row">
+            <div class="col-12">
+              <img src="img/event-02/sample.png" alt="wakazo-logo" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Event 02 ends -->
+
+  <!-- Event 03 -->
+  <section id="event-03">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h4>Content 3.</h4>
+        <h3>inochi Mirai Forum 2018</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="event-summary text-center">
+              <h2>タイトル未定</h2>
+              <p>「inochiの万博を関西で」を掲げ、2014年に発足されたinochi 未来プロジェクト。</p>
+              <p>理事長の澤芳樹から、再生医療技術をはじめとする関西のヘルスケアの可能性が語られる。関西のヘルスケアイノベーションがここから始まる。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="guests">
+          <h3>Presentation</h3>
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Speaker</h4>
+              <h2 class="guest-name">XX XX</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
+
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Speaker</h4>
+              <h2 class="guest-name">山田 達也</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
+
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Speaker</h4>
+              <h2 class="guest-name">澤 芳樹</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
+
+          <div class="row main-guest">
+            <div class="col-md-4 guest-icon-lg">
+              <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <h4 class="">Modelator</h4>
+              <h2 class="guest-name">寺本 将行</h2>
+              <h3 class="guest-title"></h3>
+              <p>ゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィールゲストスピーカーのプロフィール</p>
+            </div>
+          </div>
 
 
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+          <h3>Panel Discussion</h3>
+          <h4>Panelists</h4>
+            <div class="other-guests owl-carousel owl-theme">
+              <!-- Panelist 01 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 1" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>澤 芳樹</h6>
+                    <p>inochi 未来 Project理事長</p>
+                  </div>
+                </div>
+              </div>
 
-        <!-- Google Map JS -->
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBnlBYvfEfX1r1s4cSkVAI6rOXZtFNtDA"></script>
-        <script src="js/script.js"></script>
-      </body>
+              <!-- Panelist 02 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 2" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>高橋 政代</h6>
+                    <p>？？？</p>
+                  </div>
+                </div>
+              </div>
 
-      </html>
+              <!-- Panelist 03 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 3" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>山田 達也</h6>
+                    <p>inochi Gakusei Project 2018年度代表</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panelist 04 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 4" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>塩田 悠人</h6>
+                    <p>wakazo Project代表</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panelist 05 -->
+              <div class="other-guest">
+                <img src="img/events/avatar_by_uno.jpg" alt="guest 5" class="img-fluid">
+                <div class="guest-overlay">
+                  <div class="guest-info text-center">
+                    <h6>XX XX</h6>
+                    <p>未定、調整中</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="ticket-btn text-center">
+          <a class="btn btn-outline-primary btn-general btn-conversion smooth-scroll" href="#tickets" title="Get Tickets Now" role="button">Get Tickets Now</a>
+        </div>
+
+      </div>
+
+  </section>
+  <!-- Event 03 ends -->
+
+  <!-- Schedule -->
+  <section id="schedule">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h2>Schedule</h2>
+      </div>
+      <div id="time-table">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 text-right">
+              <h5>12:00 - 12:10</h5>
+            </div>
+            <div class="col-md-7">
+              <h5>開会の辞</h5>
+            </div>
+
+            <div class="col-md-5 text-right">
+              <h5>12:10 - 15:10</h5>
+            </div>
+            <div class="col-md-7">
+              <h5>第1部 inochi学生フォーラム2018</h5>
+              <h6>自殺対策、テクノロジーから</h6>
+            </div>
+
+            <div class="col-md-5 text-right">
+              <h5>15:30 - 17:00</h5>
+            </div>
+            <div class="col-md-7">
+              <h5>第2部 wakazo Project</h5>
+              <h6>Title TBD</h6>
+            </div>
+
+            <div class="col-md-5 text-right">
+              <h5>17:00 - 18:00</h5>
+            </div>
+            <div class="col-md-7">
+              <h5>第3部 inochi未来フォーラム2018</h5>
+              <h6>Title TBD</h6>
+            </div>
+
+            <div class="col-md-5 text-right">
+              <h5>18:00 - 18:10</h5>
+            </div>
+            <div class="col-md-7">
+              <h5>クロージング</h5>
+            </div>
+
+            <div class="col-md-5 text-right">
+              <h5>18:30 - 20:00</h5>
+            </div>
+            <div class="col-md-7">
+              <h5>情報交換会</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Schedule ends -->
+
+  <!-- Tickets -->
+  <section id="tickets">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h2>Tickets</h2>
+      </div>
+      <div id="tickets-table" class="text-center">
+        <div class="container">
+            <!-- Row 1 -->
+            <div id="row-1" class="row">
+              <div class="col-md-4">
+                <h4>チケット</h4>
+              </div>
+              <div class="col-md-4">
+                <h4>学生</h4>
+              </div>
+              <div class="col-md-4">
+                <h4>一般</h4>
+              </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div id="row-2" class="row">
+              <div class="col-md-4">
+                <h4>入場</h4>
+              </div>
+              <div class="col-md-4">
+                <h4>無料</h4>
+              </div>
+              <div class="col-md-4">
+                <h4>1000円</h4>
+              </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div id="row-3" class="row">
+              <div class="col-md-4">
+                <h4>情報交換会</h4>
+              </div>
+              <div class="col-md-4">
+                <h4>3000円</h4>
+              </div>
+              <div class="col-md-4">
+                <h4>5000円</h4>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="ticket-btn text-center">
+        <a class="btn btn-outline-primary btn-general btn-conversion smooth-scroll" href="https://inochi-gakusei-mirai-2018.peatix.com" target="_blank" title="Get Tickets Now" role="button">Get Tickets Now</a>
+      </div>
+
+    </div>
+  </section>
+  <!-- Ticekts ends -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h2>Contact</h2>
+      </div>
+      <div class="text-center">
+        <p>ご意見・ご質問等ございましたら、下記メールアドレスまたはSNSのいずれかより、<br>お気軽にお問い合わせくださいませ。</p>
+        <ul class="contact-lists">
+          <li><i class="fas fa-envelope"></i><a href="mailto:info@inochi-gakusei.com">info@inochi-gakusei.com</a></li>
+          <li><i class="fab fa-twitter"></i><a href="https://twitter.com/inochigakusei">@inochigakusei</a></li>
+          <li><i class="fab fa-twitter"></i><a href="https://twitter.com/wakazoexpo">@wakazoexpo</a></li>
+          <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/inochigakusei">inochi Gakusei Project</a></li>
+          <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/wakazoexpo/">wakazo.ONLINE</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Contact ends -->
+
+  <!-- Sponsors -->
+  <section id="sponsors">
+    <div class="content-box-lg">
+      <div class="heading">
+        <h2>Sponsors</h2>
+      </div>
+      <div class="container">
+        <h3>主催</h3>
+        <div id="main-sponsors">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>inochi学生プロジェクト</h3>
+            </div>
+            <div class="col-md-6">
+              <img src="" alt="logo">
+            </div>
+
+            <div class="col-md-6">
+              <h3>一般社団法人inochi未来プロジェクト</h3>
+            </div>
+            <div class="col-md-6">
+              <img src="" alt="logo">
+            </div>
+          </div>
+        </div>
+
+        <h4>後援</h4>
+        <div id="backups">
+          <h5>厚生労働省, 経済産業省, 近畿経済産業局, 大阪府, 2025日本万博博覧会誘致委員会, 関西経済連合会, 関西経済同友会, 大阪商工会議所, JICA関西, 関西SDGsプラットフォーム, 認定NPO法人国際ビフレンダーズ大阪自殺防止センター（順不同）</h5>
+        </div>
+
+        <h5>協賛</h5>
+        <div id="supporters">
+          <h6>ロート製薬株式会社, 株式会社カーポートマルゼン, 株式会社ワオ・コーポレーション（順不同）</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Sponsors ends -->
+
+  <!-- Footer -->
+    <footer class="text-center">
+      <div class="container px-sm-0">
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Copyright &copy; inochi Gakusei Project all rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- back to top -->
+      <a href="#home" id="back-to-top" class="btn btn-red btn-back-to-top" title="home" role="button">
+        <i class="fas fa-angle-up"></i>
+      </a>
+
+    </footer>
+    <!-- Footer ends -->
+
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<!-- owl carousel -->
+  <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+<!-- Google Map JS -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBnlBYvfEfX1r1s4cSkVAI6rOXZtFNtDA"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

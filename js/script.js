@@ -6,6 +6,42 @@ $(window).on('load', function() {
   $('#preloader').delay(350).fadeOut('slow');
 });
 
+/* =====================================
+  Navbar
+======================================*/
+
+// show & hide white navbar
+$(function() {
+
+  //on page load
+  showHideNav();
+
+  //on scroll
+  $(window).scroll(function() {
+    showHideNav()
+  });
+
+  //show and hide white navbar
+  function showHideNav() {
+    if ($(window).scrollTop() > 50) {
+      //show
+      $("#navbarNav").addClass("white-navbar");
+
+      $(".navbar-brand img").attr("src", "");
+
+      //Back to Top button
+      $("#back-to-top").fadeIn();
+    } else {
+      //hide
+      $("#navbarNav").removeClass("white-navbar");
+
+      $(".navbar-brand img").attr("src", "");
+
+      //Back to Top button
+      $("#back-to-top").fadeOut();
+    }
+  }
+});
 
 
 /* =====================================
@@ -48,5 +84,32 @@ $(window).on('load', function() {
     var center = map.getCenter();
     google.maps.event.trigger(map, 'resize');
     map.setCenter(center);
+  });
+});
+
+
+/* =====================================
+  Other guests
+======================================*/
+$(function() {
+  $(".other-guests").owlCarousel({
+    items: 3,
+    autoplay: true,
+    smartspeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+    dots: false,
+    responsive: {
+      //breakpoint from 0 up
+      0: {
+        items: 3,
+      },
+      //breakpoint from 400 up
+      400: {
+        items: 4,
+      },
+    },
   });
 });
