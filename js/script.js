@@ -118,3 +118,19 @@ $(function() {
     },
   });
 });
+
+/* =====================================
+  Animation
+======================================*/
+// animate on scroll
+$(function() {
+  new WOW().init();
+});
+
+// home animation on page load
+$(window).on('load', function() {
+  $('#home-heading-1').addClass("animated fadeIn");
+  $('#home-heading-2').addClass("animated fadeIn");
+  $('#home-btn').addClass("animated zoomIn");
+  $('#arrow-down i').addClass("animated fadeInDown infinite");
+});

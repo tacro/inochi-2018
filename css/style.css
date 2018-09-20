@@ -694,3 +694,32 @@ footer p {
 footer p span {
   color: #E03838;
 }
+
+/* =====================================
+  Animation
+======================================*/
+
+#home-heading-1, #home-heading-2, #home-btn, #arrow-down i {
+  -webkit-animation-duration: 2.0s;
+  animation-duration: 2.0s;
+}
+
+#home-heading-1 {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+#home-heading-2 {
+  -webkit-animation-delay: 2.0s;
+  animation-delay: 2.0s;
+}
+
+#home-btn {
+  -webkit-animation-delay: 3.0s;
+  animation-delay: 3.0s;
+}
+
+#arrow-down i {
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
