@@ -25,6 +25,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
+  .navbar-toggler {
+    font-size: 40px ;
+  }
+  /* Navbar */
   .site-new-wrapper {
     padding: 0;
   }
@@ -68,9 +72,15 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
   /* Navbar */
+
+  .navbar-toggler {
+    font-size: 28px ;
+  }
+
   .site-new-wrapper {
     padding: 0;
   }
+
   ul.navbar-nav {
     background: #fff;
     opacity: 0.9;
@@ -81,6 +91,7 @@
     color: #212226;
   }
 
+  /* general */
 
   .content-box-lg {
     padding: 96px 0;
@@ -88,6 +99,69 @@
   .content-box-md {
     padding: 80px 0;
   }
+
+  /* home */
+  #home-heading {
+    margin: 45px 0 0 0;
+  }
+
+  #home-heading h1 {
+    font-size: 40px;
+  }
+
+  /* about */
+  #about-body p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 8px 8px 8px;
+  }
+
+  .about-events-title h4 {
+    font-size: 13px;
+  }
+
+  .about-events-title h5 {
+    font-size: 11px;
+  }
+
+  /* Events */
+  .event-summary p {
+    font-size: 11px;
+    line-height: 24px;
+    margin: 3px 10px 3px 10px;
+  }
+
+  /* Guests */
+  .guests h4 {
+    font-size: 16px;
+  }
+
+  .guests h3 {
+    font-size: 18px;
+  }
+
+  .guests h2 {
+    font-size: 22px;
+  }
+
+  .guests p {
+    font-size: 12px;
+  }
+
+  .guest-icon-lg {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+  .other-guest{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+
   /* Contact */
 
   ul.contact-info li {
@@ -97,12 +171,16 @@
 }
 
 /* extra small devices (phones) */
-
-@media (max-width: 575px) {
-  /* Navbar */
+@media (min-width: 321px) and (max-width: 575px) {
   .site-new-wrapper {
     padding: 0;
   }
+
+  /* navbar */
+  .navbar-toggler {
+    font-size: 22px ;
+  }
+
   ul.navbar-nav {
     background: #fff;
     opacity: 0.9;
@@ -112,7 +190,7 @@
     margin: 10px 0 10px 20px;
     color: #212226;
   }
-  
+
   .content-box-lg {
     padding: 96px 0;
   }
@@ -120,9 +198,153 @@
     padding: 80px 0;
   }
 
+  .btn-back-to-top {
+    bottom: 25px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+
+  /* home */
+  #home-heading h1 {
+    font-size: 45px;
+  }
+
+  /* about */
+  #about-copy h2 {
+    font-size: 22px;
+  }
+
+  #about-body p {
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0 8px 8px 8px;
+  }
+
+  #about-info h3 {
+    font-size: 16px;
+  }
+
+  #about-info h4 {
+    font-size: 12px;
+  }
+
+
+  .about-events-title h4 {
+    font-size: 13px;
+  }
+
+  .about-events-title h5 {
+    font-size: 11px;
+  }
+
+  /* Events */
+  .event-summary h2 {
+    font-size: 18px;
+  }
+
+  .event-summary p {
+    font-size: 11px;
+    line-height: 24px;
+    margin: 3px 10px 3px 10px;
+  }
+
+  #event-01 .heading h4, #event-02 .heading h4, #event-03 .heading h4{
+    font-size: 11px;
+  }
+
+  #event-01 .heading h3, #event-02 .heading h3, #event-03 .heading h3{
+    font-size: 13px;
+  }
+
+  #event-02 .event-summary h3 {
+    font-size: 14px;
+  }
+
+  /* Guests */
+  .guests h4 {
+    font-size: 11px;
+  }
+
+  .guests h3 {
+    font-size: 11px;
+  }
+
+  .guests h2 {
+    font-size: 15px;
+  }
+
+  .guests p {
+    font-size: 9px;
+    line-height: 15px;
+  }
+
+  .guest-right {
+    margin: 0;
+  }
+
+  .guest-icon-lg {
+    max-width: 110px;
+    max-height: 110px;
+    min-width: 110px;
+    min-height: 110px;
+  }
+
+  .other-guest{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+
+  /* shedule */
+  #time-table h5 {
+    font-size: 13px;
+  }
+
+  #time-table h6 {
+    font-size: 11px;
+  }
+
+  /* Sponsors */
+  #sponsors h3{
+    font-size: 18px;
+  }
+
+  #sponsors h4{
+    font-size: 16px;
+  }
+
+  #sponsors h5{
+    font-size: 14px;
+  }
+
+  #main-sponsors h3{
+    font-size: 14px;
+  }
+
+  #backups h5 {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  #supporters h6 {
+    font-size: 11px;
+  }
+
+  /* Tickets */
+  #tickets-table h4 {
+    font-size: 11px;
+  }
+
+  /* Contact */
+  #contact p {
+    font-size: 11px;
+  }
+
   /* footer */
   footer p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
