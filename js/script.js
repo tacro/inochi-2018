@@ -91,6 +91,8 @@ $(window).on('load', function() {
 /* =====================================
   Other guests
 ======================================*/
+// if window's width >= 1200, don't owlCarousel
+
 $(function() {
   $(".other-guests").owlCarousel({
     items: 3,
@@ -110,6 +112,9 @@ $(function() {
       400: {
         items: 4,
       },
+      1200: {
+        items: 5,
+      }
     },
   });
 });

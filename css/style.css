@@ -286,7 +286,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 ======================================*/
 
 .heading {
-  margin: 0 0 15px 20px;
+  margin: 0 0 15px 30px;
 }
 
 .heading h2 {
@@ -442,24 +442,38 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 }
 
 .main-guest img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-.guest-icon-lg {
-  height: 200px;
-  width: auto;
+.guest-right {
+  margin-left: 15px;
 }
 
+.guest-icon-lg {
+  /* width: 200px; */
+  /* height: 200px; */
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  padding: 0;
+}
+
+
 .other-guest{
+  max-width: 150px;
+  max-height: 150px;
+  min-width: 150px;
+  min-height: 150px;
   margin: 8px;
   position: relative;
 }
 
 .other-guest img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -498,27 +512,26 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 }
 
 /* =====================================
-  Event 01
+  Events
 ======================================*/
-#event-01 {
-
-  /* change color later */
-
-}
-
-#event-01 .event-summary {
+.event-summary {
   margin-bottom: 30px;
 }
 
-#event-01 .event-summary h2 {
+.event-summary h2 {
   margin: 20px 0 35px 0;
   font-weight: 700;
 }
 
-#event-01 .event-summary p {
+.event-summary p {
   margin: 0;
+  line-height: 35px;
 }
 
+
+/* =====================================
+  Event 01
+======================================*/
 
 /* =====================================
   Event 02
@@ -526,19 +539,6 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 #event-02 {
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
-}
-
-#event-02 .event-summary {
-  margin-bottom: 30px;
-}
-
-#event-02 .event-summary h2 {
-  margin: 20px 0 35px 0;
-  font-weight: 700;
-}
-
-#event-02 .event-summary p {
-  margin: 0;
 }
 
 #wakazo-presentation img {
@@ -552,22 +552,17 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
   Event 03
 ======================================*/
 
-#event-03 .event-summary {
-  margin-bottom: 30px;
-}
-
-#event-03 .event-summary h2 {
-  margin: 20px 0 35px 0;
-  font-weight: 700;
-}
-
-#event-03 .event-summary p {
-  margin: 0;
+#event-03 h2 {
+  font-family:  "Open Sans", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Sans", sans-serif;
 }
 
 /* =====================================
   Schedule
 ======================================*/
+#schedule {
+  background-color: #F4F4F4;
+}
+
 #time-table {
   margin: 0 auto;
 }
@@ -612,6 +607,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus {
 /* =====================================
   Contact
 ======================================*/
+
+#contact {
+  background-color: #F4F4F4;
+}
 
 #contact p {
   font-size: 16px;
