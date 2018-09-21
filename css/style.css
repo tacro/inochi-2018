@@ -71,7 +71,11 @@ section {
 
 /* =====================================
   Navbar
-======================================*/
+#======================================*/
+#logo img {
+  height: 120px;
+}
+
 .navbar {
   color: #fff;
   padding: 35px 0 20px 0;
@@ -671,6 +675,10 @@ ul.contact-lists li a {
 
 #main-sponsors h3{
   font-size: 22px;
+}
+
+#main-sponsors img {
+  width: 150px;
 }
 
 #backups h5 {
