@@ -25,17 +25,26 @@ $(function() {
   function showHideNav() {
     if ($(window).scrollTop() > 50) {
       //show
-      $("#navbarNav").addClass("white-navbar");
+      $("nav").addClass("white-navbar");
 
-      $(".navbar-brand img").attr("src", "");
+      $(".navbar-brand img").attr("src", "img/logo/logo-white.png");
+      $(".navbar-brand img").hover(
+        function(){
+          $(this).attr("src", "img/logo/logo.png");
+        },
+        function(){
+          $(this).attr("src", "img/logo/logo-white.png");  
+        }
+      )
+
 
       //Back to Top button
       $("#back-to-top").fadeIn();
     } else {
       //hide
-      $("#navbarNav").removeClass("white-navbar");
+      $("nav").removeClass("white-navbar");
 
-      $(".navbar-brand img").attr("src", "");
+      $(".navbar-brand img").attr("src", "img/logo/logo.png");
 
       //Back to Top button
       $("#back-to-top").fadeOut();
