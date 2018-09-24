@@ -172,11 +172,17 @@
 
 /* extra small devices (phones) */
 @media (min-width: 321px) and (max-width: 575px) {
+
   .site-new-wrapper {
     padding: 0;
   }
 
   /* navbar */
+  #logo img {
+    height: 50px;
+    margin-bottom: 5px;
+  }
+
   .navbar-toggler {
     font-size: 22px ;
   }
@@ -362,5 +368,200 @@
 }
 
 @media (max-width: 320px) {
+  #logo img {
+    height: 40px;
+    margin-bottom: 5px;
+  }
 
+  .navbar {
+    padding: 5px 0 0 0;
+  }
+
+  .navbar-toggler {
+    font-size: 22px ;
+  }
+
+  ul.navbar-nav {
+    background: #fff;
+    opacity: 0.9;
+    padding: 10px 0 30px 0;
+  }
+  ul.navbar-nav>li>a {
+    margin: 10px 0 10px 20px;
+    color: #212226;
+  }
+
+  .content-box-lg {
+    padding: 96px 0;
+  }
+  .content-box-md {
+    padding: 80px 0;
+  }
+
+  .btn-back-to-top {
+    bottom: 25px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+
+  /* home */
+  #home-heading h1 {
+    font-size: 45px;
+  }
+
+  /* about */
+  #about-copy h2 {
+    font-size: 22px;
+  }
+
+  #about-body p {
+    font-size: 10px;
+    line-height: 18px;
+    margin: 0 5px 8px 5px;
+  }
+
+  #about-info h3 {
+    font-size: 16px;
+  }
+
+  #about-info h4 {
+    font-size: 10px;
+  }
+
+
+  .about-events-title h4 {
+    font-size: 13px;
+  }
+
+  .about-events-title h5 {
+    font-size: 11px;
+  }
+
+  /* Events */
+  .event-summary h2 {
+    font-size: 18px;
+  }
+
+  .event-summary p {
+    font-size: 10px;
+    line-height: 20px;
+    margin: 3px 5px 3px 5px;
+  }
+
+  #event-01 .heading h4, #event-02 .heading h4, #event-03 .heading h4{
+    font-size: 10px;
+  }
+
+  #event-01 .heading h3, #event-02 .heading h3, #event-03 .heading h3{
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  #event-02 .event-summary h3 {
+    font-size: 14px;
+  }
+
+  /* Guests */
+  .guests h4 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .guests h3 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .guests h2 {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+
+  .guests p {
+    font-size: 8px;
+    line-height: 13px;
+  }
+
+  .guest-right {
+    margin: 0;
+    padding: 0 0 0 7px;
+  }
+
+  .guest-icon-lg {
+    max-width: 88px;
+    max-height: 88px;
+    min-width: 88px;
+    min-height: 88px;
+  }
+
+  .other-guest{
+    max-width: 80px;
+    max-height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+  }
+
+  .guest-info {
+    padding: 30px 10px;
+  }
+
+  .guest-info h6 {
+    font-size: 12px;
+  }
+
+  .guest-info p {
+    color: #E03838;
+    font-size: 9px;
+  }
+
+  /* shedule */
+  #time-table h5 {
+    font-size: 13px;
+  }
+
+  #time-table h6 {
+    font-size: 11px;
+  }
+
+  /* Sponsors */
+  #sponsors h3{
+    font-size: 18px;
+  }
+
+  #sponsors h4{
+    font-size: 16px;
+  }
+
+  #sponsors h5{
+    font-size: 14px;
+  }
+
+  #main-sponsors h3{
+    font-size: 14px;
+  }
+
+  #backups h5 {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  #supporters h6 {
+    font-size: 11px;
+  }
+
+  /* Tickets */
+  #tickets-table h4 {
+    font-size: 11px;
+  }
+
+  /* Contact */
+  #contact p {
+    font-size: 11px;
+  }
+
+  /* footer */
+  footer p {
+    font-size: 8px;
+  }
 }
