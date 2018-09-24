@@ -43,6 +43,15 @@
     color: #212226;
   }
 
+  /* general */
+
+  .content-box-lg {
+    padding: 96px 0;
+  }
+  .content-box-md {
+    padding: 80px 0;
+  }
+
   /* about */
   #about-body p {
     font-size: 12px;
@@ -204,10 +213,18 @@
   }
 
   .content-box-lg {
-    padding: 96px 0;
+    padding: 35px 0;
   }
   .content-box-md {
-    padding: 80px 0;
+    padding: 30px 0;
+  }
+
+  .heading {
+    margin: 0 0 0 12px;
+  }
+
+  .heading h2 {
+    font-size: 24px;
   }
 
   .btn-back-to-top {
@@ -323,6 +340,10 @@
   }
 
   /* shedule */
+  #time-table {
+    margin-top: 10px;
+  }
+
   #time-table h5 {
     font-size: 13px;
   }
@@ -398,10 +419,10 @@
   }
 
   .content-box-lg {
-    padding: 96px 0;
+    padding: 30px 0;
   }
   .content-box-md {
-    padding: 80px 0;
+    padding: 25px 0;
   }
 
   .btn-back-to-top {
@@ -409,6 +430,14 @@
     padding: 3px 8px;
     border-radius: 4px;
     font-size: 13px;
+  }
+
+  .heading {
+    margin: 0 0 0 10px;
+  }
+
+  .heading h2 {
+    font-size: 22px;
   }
 
   /* home */
@@ -522,6 +551,10 @@
   }
 
   /* shedule */
+  #time-table {
+    margin-top: 10px;
+  }
+  
   #time-table h5 {
     font-size: 13px;
   }
