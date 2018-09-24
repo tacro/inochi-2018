@@ -33,7 +33,7 @@ $(function() {
           $(this).attr("src", "img/logo/logo.png");
         },
         function(){
-          $(this).attr("src", "img/logo/logo-white.png");  
+          $(this).attr("src", "img/logo/logo-white.png");
         }
       )
 
@@ -118,10 +118,10 @@ $(function() {
         items: 3,
       },
       //breakpoint from 400 up
-      576: {
+      768: {
         items: 4,
       },
-      768: {
+      992: {
         items: 5,
       }
     },

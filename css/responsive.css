@@ -162,6 +162,12 @@
     min-height: 100px;
   }
 
+  .guest-info {
+    height: 100%;
+    width: 100%;
+    padding: 40px 10px;
+  }
+
   /* Contact */
 
   ul.contact-info li {
@@ -304,16 +310,16 @@
   }
 
   .guest-info {
-    padding: 30px 10px;
+    padding: 45px 10px;
   }
 
   .guest-info h6 {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .guest-info p {
     color: #E03838;
-    font-size: 9px;
+    font-size: 8px;
   }
 
   /* shedule */
@@ -378,7 +384,7 @@
   }
 
   .navbar-toggler {
-    font-size: 22px ;
+    font-size: 18px ;
   }
 
   ul.navbar-nav {
@@ -507,12 +513,12 @@
   }
 
   .guest-info h6 {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .guest-info p {
     color: #E03838;
-    font-size: 9px;
+    font-size: 6px;
   }
 
   /* shedule */
