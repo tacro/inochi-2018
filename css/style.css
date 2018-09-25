@@ -163,11 +163,11 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   min-width: 100%;
-  min-height: 100%;
+  min-height: 135%;
   width: auto;
   height: auto;
   z-index: -1;
-  background: url("../video/default.jpg") no-repeat;
+  background: url("../video/inochi-forum.jpg") no-repeat;
   background-size: cover;
 }
 
