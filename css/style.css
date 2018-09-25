@@ -686,18 +686,18 @@ ul.contact-lists li a {
 }
 
 /* =====================================
-  Sponsors
+  organizers
 ======================================*/
 
-#main-sponsors, #backups, #supporters {
+#main-organizers, #backups, #supporters {
   margin: 10px 0 20px 0;
 }
 
-#main-sponsors h3{
+#main-organizers h3{
   font-size: 22px;
 }
 
-#main-sponsors img {
+#main-organizers img {
   width: 150px;
 }
 
