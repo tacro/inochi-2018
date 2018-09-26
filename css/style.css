@@ -167,7 +167,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   width: auto;
   height: auto;
   z-index: -1;
-  background: url("../video/inochi-forum.jpg") no-repeat;
+  background: url("../video/inochi-forum.gif") no-repeat;
   background-size: cover;
 }
 
@@ -573,6 +573,9 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 /* =====================================
   Event 01
 ======================================*/
+#event-01{
+  background-color: #f4f4f4;
+}
 
 /* =====================================
   Event 02
@@ -602,6 +605,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   Event 03
 ======================================*/
 
+#event-03{
+  background-color: #f4f4f4;
+}
+
 #event-03 h2 {
   font-family:  "Open Sans", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Sans", sans-serif;
 }
@@ -609,57 +616,17 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 /* =====================================
   Schedule
 ======================================*/
-#schedule {
-  background-color: #F4F4F4;
-}
 
 #time-table {
   margin: 0 auto;
 }
 
-/* =====================================
-  Tickets
-======================================*/
-#tickets .heading {
-  margin-bottom: 55px;
-}
-
-#tickets-table {
-  margin: 0 auto;
-  width: 70%;
-}
-
-#tickets-table h4 {
-  font-size: 18px;
-}
-
-#row-1 {
-  padding: 10px 0;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #212226;
-}
-
-#row-2 {
-  margin-bottom: 20px;
-  padding: 15px 0 18px 0;
-  border-bottom: 1px solid #212226;
-
-  /* background-color: #FE6A6A; */
-  /* color: #fff; */
-}
-
-#row-3 {
-  padding-top: 5px;
-}
-
-
 
 /* =====================================
   Contact
 ======================================*/
-
 #contact {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 #contact p {
@@ -690,6 +657,7 @@ ul.contact-lists li a {
 /* =====================================
   organizers
 ======================================*/
+
 
 #main-organizers, #backups, #supporters {
   margin: 10px 0 20px 0;

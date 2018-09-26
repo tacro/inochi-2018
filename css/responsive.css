@@ -332,11 +332,13 @@
 
   .guest-info h6 {
     font-size: 11px;
+    line-height: 13px;
   }
 
   .guest-info p {
     color: #E03838;
     font-size: 8px;
+    line-height: 10px;
   }
 
   /* shedule */
@@ -548,11 +550,13 @@
 
   .guest-info h6 {
     font-size: 10px;
+    line-height: 12px;
   }
 
   .guest-info p {
     color: #E03838;
     font-size: 6px;
+    line-height: 8px;
   }
 
   /* shedule */
