@@ -422,9 +422,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   transform: translateY(-50%);
 }
 
-.about-events-title h4 {
-  color: #ffffff;
-  font-size: 22px;
+.about-events-title h3, h4, h5 {
   margin: 0;
   padding: 0;
   -webkit-transform: translateY(-20%);
@@ -433,15 +431,14 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   transition: all .8s;
 }
 
-.about-events-title h5 {
-  color: #ffffff;
+.about-events-title h3 {
+  color: #E03838;
   font-size: 18px;
-  margin: 0;
-  padding: 0;
-  -webkit-transform: translateY(-20%);
-  transform: translateY(-20%);
-  -webkittransition: all .8s;
-  transition: all .8s;
+}
+
+.about-events-title h4 {
+  color: #ffffff;
+  font-size: 22px;
 }
 
 /* show overlay on mouse over */
