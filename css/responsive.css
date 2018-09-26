@@ -18,15 +18,23 @@
 /* large devices (laptop & desktop) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  #logo img {
+    height: 50px;
+    margin-bottom: 5px;
+  }
 }
 
 /* medium devices (tablets) */
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
+  #logo img {
+    height: 45px;
+    margin-bottom: 5px;
+  }
+
   .navbar-toggler {
-    font-size: 40px ;
+    font-size: 30px ;
   }
   /* Navbar */
   .site-new-wrapper {
@@ -81,6 +89,10 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
   /* Navbar */
+  #logo img {
+    height: 40px;
+    margin-bottom: 5px;
+  }
 
   .navbar-toggler {
     font-size: 28px ;
@@ -194,7 +206,7 @@
 
   /* navbar */
   #logo img {
-    height: 50px;
+    height: 40px;
     margin-bottom: 5px;
   }
 
@@ -398,7 +410,7 @@
 
 @media (max-width: 320px) {
   #logo img {
-    height: 40px;
+    height: 30px;
     margin-bottom: 5px;
   }
 

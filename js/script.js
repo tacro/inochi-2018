@@ -27,8 +27,8 @@ $(function() {
       //show
       $("nav").addClass("white-navbar");
 
-      $(".navbar-brand img").attr("src", "img/logo/logo-white.png");
-      $(".navbar-brand img").hover(
+      $(".navbar-brand img:first").attr("src", "img/logo/logo-white.png");
+      $(".navbar-brand img:first").hover(
         function(){
           $(this).attr("src", "img/logo/logo.png");
         },
@@ -44,7 +44,7 @@ $(function() {
       //hide
       $("nav").removeClass("white-navbar");
 
-      $(".navbar-brand img").attr("src", "img/logo/logo.png");
+      $(".navbar-brand img:first").attr("src", "img/logo/logo.png");
 
       //Back to Top button
       $("#back-to-top").fadeOut();
