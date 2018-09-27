@@ -167,7 +167,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   width: auto;
   height: auto;
   z-index: -1;
-  background: url("../video/inochi-forum.gif") no-repeat;
+  /* background: url("../video/inochi-forum.gif") no-repeat; */
   background-size: cover;
 }
 
