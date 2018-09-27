@@ -156,6 +156,12 @@
     font-size: 11px;
   }
 
+  /* map */
+  #map {
+    height: 300px;
+    width: 100%;
+  }
+
   /* Events */
   .event-summary p {
     font-size: 11px;
@@ -288,6 +294,12 @@
 
   .about-events-title h5 {
     font-size: 11px;
+  }
+
+  /* map */
+  #map {
+    height: 250px;
+    width: 100%;
   }
 
   /* Events */
@@ -501,6 +513,12 @@
 
   .about-events-title h5 {
     font-size: 11px;
+  }
+
+  /* map */
+  #map {
+    height: 200px;
+    width: 100%;
   }
 
   /* Events */
