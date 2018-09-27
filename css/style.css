@@ -688,6 +688,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   margin: 0 auto;
 }
 
+#time-table h6 {
+  margin-left: 5px;
+}
+
 
 /* =====================================
   Contact
@@ -727,7 +731,13 @@ ul.contact-lists li a {
 
 
 #main-organizers, #backups, #supporters {
-  margin: 10px 0 20px 0;
+  margin: 35px 0 25px 0;
+}
+
+#main-organizers h2{
+  font-size: 20px;
+  vertical-align: middle;
+  margin-bottom: 10px;
 }
 
 #main-organizers h3{
@@ -739,13 +749,32 @@ ul.contact-lists li a {
   height: 120px;
 }
 
+#backups h4 {
+  margin-bottom: 15px;
+}
+
 #supporters img {
   height: 45px;
 }
 
-#backups h5 {
+#supporters h5 {
   font-size: 17px;
+  margin-bottom: 15px;
 }
+
+/* =====================================
+  Caution
+======================================*/
+#caution p {
+  font-size: 11px;
+  line-height : 12px;
+  margin-bottom: 3px;
+}
+
+#caution{
+  padding: 0 0 10px 0;
+}
+
 /* =====================================
   Footer
 ======================================*/
