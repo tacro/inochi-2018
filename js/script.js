@@ -70,10 +70,10 @@ $(function() {
 
 $(window).on('load', function() {
 
-  var addressString = "Brooklyn, NY";
+  var addressString = "コングレコンベンションセンター";
   var myLatLng = {
-    lat: 40.678178,
-    lng: -73.944158
+    lat: 34.705345,
+    lng: 135.494593
   };
 
   // render map
