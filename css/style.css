@@ -602,6 +602,68 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   object-fit: cover;
 }
 
+/* overlay effect */
+
+.content-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(14, 14, 19, 0.9);
+  cursor: -webkit-pointer;
+  cursor: pointer;
+  opacity: 0;
+  -webkittransition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* item details effect */
+
+.content-title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.content-title h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+  -webkittransition: all .8s;
+  transition: all .8s;
+}
+
+.content-title h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.content-title h4 {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.content-title h4 span {
+  color: #fff;
+  font-size: 10px;
+}
+
+/* show overlay on mouse over */
+
+.wakazo-content:hover .content-overlay {
+  opacity: 1;
+}
+
+.wakazo-content:hover .content-title h4, .wakazo-content:hover .content-title h3 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
 /* =====================================
   Event 03
 ======================================*/
@@ -612,6 +674,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 
 #event-03 h2 {
   font-family:  "Open Sans", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Sans", sans-serif;
+}
+
+#event-03 .main-guest {
+  margin: 20px 45px 50px 0;
 }
 
 /* =====================================
@@ -665,20 +731,16 @@ ul.contact-lists li a {
 }
 
 #main-organizers h3{
-  font-size: 22px;
+  font-size: 16px;
   vertical-align: middle;
 }
 
-#main-organizer-01 img {
-  width: 150px;
-}
-
-#main-organizer-02 img {
-  width: 110px;
+#main-organizer-logo img {
+  height: 120px;
 }
 
 #supporters img {
-  width: 80px;
+  height: 45px;
 }
 
 #backups h5 {

@@ -131,9 +131,6 @@ $(function() {
       //breakpoint from 400 up
       768: {
         items: 4,
-      },
-      992: {
-        items: 5,
       }
     },
   });
