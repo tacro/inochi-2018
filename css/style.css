@@ -453,6 +453,20 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 }
 
 /* =====================================
+  Map
+======================================*/
+
+/* #google-map .container-fluid {
+  padding: 0;
+} */
+
+#map {
+  height: 600px;
+  width: 100%;
+}
+
+
+/* =====================================
   gusests
 ======================================*/
 
