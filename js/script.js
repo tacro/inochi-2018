@@ -2,8 +2,8 @@
   Preloader
 ======================================*/
 $(window).on('load', function() {
-  // $('#status').fadeOut();
-  // $('#preloader').delay(350).fadeOut('slow');
+  $('#status').fadeOut();
+  $('#preloader').delay(350).fadeOut('slow');
 });
 
 /* =====================================
