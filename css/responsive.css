@@ -15,7 +15,7 @@
   }
 
   #about-02 .heading{
-    margin: 80px 0 50px 15px;
+    margin: 0 0 50px 15px;
   }
 
   /* event */
@@ -89,10 +89,6 @@
 
   #about-body p {
     font-size: 16px;
-  }
-
-  #about-02 .heading{
-    margin: 70px 0 30px 15px;
   }
 
   /* event */
@@ -297,6 +293,10 @@
     padding: 80px 0;
   }
 
+  .content-box-sm {
+    padding: 60px 0;
+  }
+
   /* home */
   #home-heading {
     margin: 45px 0 0 0;
@@ -453,6 +453,11 @@
   .content-box-md {
     padding: 30px 0;
   }
+
+  .content-box-sm {
+    padding: 28px 0;
+  }
+
 
   .heading {
     margin: 0 0 0 12px;
@@ -699,6 +704,11 @@
   .content-box-md {
     padding: 25px 0;
   }
+
+  .content-box-sm {
+    padding: 25px 0;
+  }
+
 
   .btn-general {
     font-size: 11px;
