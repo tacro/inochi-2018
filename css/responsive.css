@@ -13,6 +13,15 @@
   .guest-right {
     margin-left: 25px;
   }
+
+  .other-guest{
+    max-width: 180px;
+    max-height: 180px;
+    min-width: 180px;
+    min-height: 180px;
+    margin: 45px;
+    position: relative;
+  }
 }
 
 /* large devices (laptop & desktop) */
@@ -21,6 +30,14 @@
   #logo img {
     height: 50px;
     margin-bottom: 5px;
+  }
+
+  .other-guest{
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    margin: 50px;
   }
 }
 
@@ -85,6 +102,10 @@
     font-size: 12px;
   }
 
+  #event-02 h2{
+    line-height: 50px;
+  }
+
   /* organizers */
   #main-organizers h3{
     font-size: 18px;
@@ -143,7 +164,7 @@
 
   /* about */
   #about-body p {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 20px;
     margin: 0 8px 8px 8px;
   }
@@ -164,9 +185,13 @@
 
   /* Events */
   .event-summary p {
-    font-size: 11px;
-    line-height: 24px;
-    margin: 3px 10px 3px 10px;
+    font-size: 10px;
+    line-height: 20px;
+    margin: 3px 8px 3px 8px;
+  }
+
+  .event-summary h2 {
+    font-size: 26px;
   }
 
   /* Guests */
@@ -194,16 +219,35 @@
   }
 
   .other-guest{
-    max-width: 100px;
-    max-height: 100px;
-    min-width: 100px;
-    min-height: 100px;
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    margin: 25px;
   }
 
   .guest-info {
     height: 100%;
     width: 100%;
     padding: 40px 10px;
+  }
+
+  /* Organizers */
+  #backups h4 {
+    margin-bottom: 15px;
+  }
+
+  #supporters img {
+    height: 45px;
+  }
+
+  #supporters h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+
+  #supporters h6 {
+    font-size: 10px;
   }
 
   /* Contact */
@@ -228,7 +272,7 @@
   }
 
   .navbar-toggler {
-    font-size: 22px ;
+    font-size: 22px;
   }
 
   ul.navbar-nav {
@@ -274,9 +318,9 @@
   }
 
   #about-body p {
-    font-size: 11px;
-    line-height: 20px;
-    margin: 0 8px 8px 8px;
+    font-size: 8px;
+    line-height: 18px;
+    margin: 0;
   }
 
   #about-info h3 {
@@ -308,9 +352,9 @@
   }
 
   .event-summary p {
-    font-size: 11px;
-    line-height: 24px;
-    margin: 3px 10px 3px 10px;
+    font-size: 10px;
+    line-height: 16px;
+    margin: 3px 0;
   }
 
   #event-01 .heading h4, #event-02 .heading h4, #event-03 .heading h4{
@@ -325,6 +369,10 @@
     font-size: 14px;
   }
 
+  #wakazo-presentation h3 {
+    font-size: 14px;
+  }
+
   /* Guests */
   .guests h4 {
     font-size: 11px;
@@ -336,6 +384,10 @@
 
   .guests h2 {
     font-size: 15px;
+  }
+
+  .guests h2 span {
+    font-size: 11px;
   }
 
   .guests p {
@@ -370,6 +422,10 @@
     line-height: 13px;
   }
 
+  .guest-info h6 span {
+    font-size: 8px;
+  }
+
   .guest-info p {
     color: #E03838;
     font-size: 8px;
@@ -402,17 +458,26 @@
     font-size: 14px;
   }
 
+  #main-organizer-logo img {
+    height: 90px;
+  }
+
   #main-organizers h3{
-    font-size: 14px;
+    font-size: 11px;
   }
 
   #backups h5 {
-    font-size: 13px;
-    line-height: 22px;
+    font-size: 11px;
+    line-height: 15px;
   }
 
+  #supporters img {
+    height: 30px;
+  }
+
+
   #supporters h6 {
-    font-size: 11px;
+    font-size: 6px;
   }
 
   /* Tickets */
@@ -494,8 +559,8 @@
 
   #about-body p {
     font-size: 10px;
-    line-height: 18px;
-    margin: 0 5px 8px 5px;
+    line-height: 15px;
+    margin: 0;
   }
 
   #about-info h3 {
@@ -523,13 +588,13 @@
 
   /* Events */
   .event-summary h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .event-summary p {
-    font-size: 10px;
-    line-height: 20px;
-    margin: 3px 5px 3px 5px;
+    font-size: 8px;
+    line-height: 18px;
+    margin:  0;
   }
 
   #event-01 .heading h4, #event-02 .heading h4, #event-03 .heading h4{
@@ -542,6 +607,10 @@
   }
 
   #event-02 .event-summary h3 {
+    font-size: 14px;
+  }
+
+  #wakazo-presentation h3 {
     font-size: 14px;
   }
 
@@ -559,6 +628,10 @@
   .guests h2 {
     font-size: 13px;
     margin-bottom: 3px;
+  }
+
+  .guests h2 span {
+    font-size: 10px;
   }
 
   .guests p {
@@ -594,6 +667,10 @@
     line-height: 12px;
   }
 
+  .guest-info h6 span {
+    font-size: 7px;
+  }
+
   .guest-info p {
     color: #E03838;
     font-size: 6px;
@@ -626,17 +703,26 @@
     font-size: 14px;
   }
 
-  #organizers h3{
-    font-size: 14px;
+  #main-organizer-logo img {
+    height: 80px;
+  }
+
+  #main-organizers h3{
+    font-size: 9px;
   }
 
   #backups h5 {
-    font-size: 13px;
-    line-height: 22px;
+    font-size: 10px;
+    line-height: 15px;
   }
 
+  #supporters img {
+    height: 24px;
+  }
+
+
   #supporters h6 {
-    font-size: 11px;
+    font-size: 7px;
   }
 
   /* Tickets */

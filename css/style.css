@@ -341,7 +341,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   text-align: center;
 } */
 #about .content-box-lg {
-  padding-bottom: 0;
+  padding-bottom: 0px;
 }
 
 #about-copy h2 {
@@ -458,6 +458,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 
 #google-map .container-fluid {
   padding: 0;
+  margin-bottom: 2px;
 }
 
 #map {
@@ -475,16 +476,19 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 }
 
 .guests h4 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .guests h3 {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
 }
 
 .guests h2 {
   font-weight: 400;
+}
+
+.guests h2 span {
+  font-size: 24px;
 }
 
 .main-guest {
@@ -553,6 +557,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   margin: 0 0 3px 0;
 }
 
+.guest-info h6 span{
+  font-size: 12px;
+}
+
 .guest-info p {
   color: #E03838;
   font-size: 10px;
@@ -614,6 +622,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   height: 200px;
   width: 100%;
   object-fit: cover;
+}
+
+#wakazo-contents {
+  margin: 20px 0;
 }
 
 /* overlay effect */
@@ -764,16 +776,20 @@ ul.contact-lists li a {
 }
 
 #backups h4 {
-  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#backups h5 {
+  font-size: 14px;
 }
 
 #supporters img {
-  height: 45px;
+  height: 40px;
 }
 
 #supporters h5 {
-  font-size: 17px;
-  margin-bottom: 15px;
+  font-size: 10px;
+  /* margin-bottom: 15px; */
 }
 
 /* =====================================
@@ -787,6 +803,7 @@ ul.contact-lists li a {
 
 #caution{
   padding: 0 0 10px 0;
+  background-color: #fff;
 }
 
 /* =====================================
