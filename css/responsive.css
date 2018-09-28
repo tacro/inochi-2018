@@ -261,6 +261,15 @@
 /* extra small devices (phones) */
 @media (min-width: 321px) and (max-width: 575px) {
 
+  #preloader img {
+    width: 90px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -45px;
+  }
+
   .site-new-wrapper {
     padding: 0;
   }
@@ -497,6 +506,16 @@
 }
 
 @media (max-width: 320px) {
+  #preloader img {
+    width: 80px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -40px;
+  }
+
+
   #logo img {
     height: 30px;
     margin-bottom: 5px;
