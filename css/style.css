@@ -484,17 +484,21 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   font-family: "Open Sans", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Noto Sans", sans-serif;
 }
 
-.guests h4 {
-  font-size: 22px;
+.guests h2 {
+  font-weight: 400;
+  font-size: 28px;
 }
 
 .guests h3 {
   font-size: 24px;
 }
 
-.guests h2 {
-  font-weight: 400;
-  font-size: 28px;
+.guests h4 {
+  font-size: 22px;
+}
+
+.guests h5 {
+  font-size: 24px;
 }
 
 .guests h2 span {

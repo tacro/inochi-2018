@@ -121,7 +121,7 @@
     font-size: 18px;
   }
 
-  .guests h3 {
+  .guests h5 {
     font-size: 20px;
   }
 
@@ -232,7 +232,7 @@
     font-size: 16px;
   }
 
-  .guests h3 {
+  .guests h5 {
     font-size: 14px;
   }
 
@@ -424,11 +424,15 @@
   }
 
   /* Guests */
+  .guests h3 {
+    font-size: 14px;
+  }
+
   .guests h4 {
     font-size: 11px;
   }
 
-  .guests h3 {
+  .guests h5 {
     font-size: 9px;
   }
 
@@ -668,12 +672,16 @@
   }
 
   /* Guests */
+  .guests h3{
+    font-size: 14px;
+  }
+
   .guests h4 {
     font-size: 10px;
     margin-bottom: 3px;
   }
 
-  .guests h3 {
+  .guests h5 {
     font-size: 9px;
     margin-bottom: 3px;
   }
