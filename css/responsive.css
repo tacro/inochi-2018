@@ -744,11 +744,11 @@
   }
 
   #time-table h5 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   #time-table h6 {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   /* contact */
@@ -780,15 +780,10 @@
     height: 24px;
   }
 
-
   #supporters h6 {
     font-size: 5px;
   }
 
-  /* Tickets */
-  #tickets-table h4 {
-    font-size: 11px;
-  }
 
   /* Contact */
   #contact p {
