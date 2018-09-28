@@ -434,6 +434,8 @@
 
   .guests h5 {
     font-size: 9px;
+    line-height: 12px;
+    margin-bottom: 5px;
   }
 
   .guests h2 {
