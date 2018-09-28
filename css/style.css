@@ -374,13 +374,14 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
 #about-info h3 {
   font-size: 22px;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 55px;
 }
 
 #about-info h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 30px;
+  margin: 25px 0 0 0;
 }
 
 .about-events {

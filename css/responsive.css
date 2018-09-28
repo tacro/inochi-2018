@@ -5,6 +5,25 @@
 /* extra large devices (laptop & desktop) */
 
 @media (min-width:1200px) {
+  /* about */
+  #about-copy h2 {
+    font-size: 40px;
+  }
+
+  #about-body p {
+    font-size: 18px;
+  }
+
+  /* event */
+  .event-summary {
+    margin-bottom: 50px;
+  }
+
+  .event-summary p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
   /* event guests */
   .main-guest {
     margin: 10px 20px 45px 30px;
@@ -14,6 +33,23 @@
     margin-left: 25px;
   }
 
+  .guests h4 {
+    font-size: 20px;
+  }
+
+  .guests h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .guests h2 {
+    font-size: 26px;
+  }
+
+  .guests h2 span {
+    font-size: 18px;
+  }
+
   .other-guest{
     max-width: 180px;
     max-height: 180px;
@@ -21,6 +57,16 @@
     min-height: 180px;
     margin: 45px;
     position: relative;
+  }
+
+  .guest-info p {
+    font-size: 12px;
+  }
+
+  /* organizers */
+  #backups h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
   }
 }
 
@@ -32,12 +78,67 @@
     margin-bottom: 5px;
   }
 
+  /* about */
+  #about-copy h2 {
+    font-size: 32px;
+  }
+
+  #about-body p {
+    font-size: 16px;
+  }
+
+  /* event */
+  .event-summary {
+    margin-bottom: 50px;
+  }
+
+  .event-summary p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  /* event guests */
+  .main-guest {
+    margin: 10px 20px 45px 30px;
+  }
+
+  .guest-right {
+    margin-left: 25px;
+  }
+
+  .guests h4 {
+    font-size: 20px;
+  }
+
+  .guests h5 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .guests h2 {
+    font-size: 26px;
+  }
+
+  .guests h2 span {
+    font-size: 18px;
+  }
+
   .other-guest{
     max-width: 150px;
     max-height: 150px;
     min-width: 150px;
     min-height: 150px;
     margin: 50px;
+  }
+
+  .guest-info p {
+    font-size: 12px;
+  }
+
+  /* organizers */
+  #backups h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
   }
 }
 
@@ -88,7 +189,7 @@
 
   /* about */
   #about-body p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #about-info {
@@ -108,7 +209,7 @@
 
   /* events */
   .event-summary p {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   #event-02 h2{
@@ -122,7 +223,8 @@
   }
 
   .guests h5 {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 8px;
   }
 
   .guests h2 {
@@ -140,8 +242,9 @@
   }
 
   #backups h5 {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
   }
 
   #supporters h6 {
@@ -280,7 +383,8 @@
 
   #backups h5 {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 16px;
+    margin-bottom: 8px;
   }
 
   #supporters img {
@@ -378,7 +482,9 @@
   }
 
   #about-info h4 {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 10px 0;
   }
 
 
@@ -429,13 +535,13 @@
   }
 
   .guests h4 {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .guests h5 {
-    font-size: 9px;
+    font-size: 11px;
     line-height: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   .guests h2 {
@@ -627,7 +733,9 @@
   }
 
   #about-info h4 {
-    font-size: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 10px 0;
   }
 
 
@@ -679,13 +787,13 @@
   }
 
   .guests h4 {
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 3px;
   }
 
   .guests h5 {
-    font-size: 9px;
-    margin-bottom: 3px;
+    font-size: 10px;
+    margin-bottom: 5px;
   }
 
   .guests h2 {
