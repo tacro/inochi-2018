@@ -115,13 +115,37 @@
     line-height: 50px;
   }
 
+  /* guests */
+
+  .guests h4 {
+    font-size: 18px;
+  }
+
+  .guests h3 {
+    font-size: 20px;
+  }
+
+  .guests h2 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .guests h2 span {
+    font-size: 22px;
+  }
+
   /* organizers */
   #main-organizers h3{
     font-size: 18px;
   }
 
   #backups h5 {
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #supporters h6 {
+    font-size: 12px;
   }
 
 }
@@ -209,11 +233,15 @@
   }
 
   .guests h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .guests h2 {
     font-size: 22px;
+  }
+
+  .guests h2 span {
+    font-size: 14px;
   }
 
   .guests p {
@@ -241,22 +269,26 @@
     padding: 40px 10px;
   }
 
+  .guest-info p {
+    font-size: 9px;
+  }
+
   /* Organizers */
-  #backups h4 {
-    margin-bottom: 15px;
+  #main-organizers h3{
+    font-size: 14px;
+  }
+
+  #backups h5 {
+    font-size: 13px;
+    line-height: 20px;
   }
 
   #supporters img {
     height: 45px;
   }
 
-  #supporters h5 {
-    font-size: 17px;
-    margin-bottom: 15px;
-  }
-
   #supporters h6 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   /* Contact */
@@ -336,9 +368,9 @@
   }
 
   #about-body p {
-    font-size: 8px;
-    line-height: 18px;
-    margin: 0;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 2px 8px;
   }
 
   #about-info h3 {
@@ -370,9 +402,9 @@
   }
 
   .event-summary p {
-    font-size: 10px;
-    line-height: 16px;
-    margin: 3px 0;
+    font-size: 11px;
+    line-height: 20px;
+    margin: 3px 10px;
   }
 
   #event-01 .heading h4, #event-02 .heading h4, #event-03 .heading h4{
@@ -397,7 +429,7 @@
   }
 
   .guests h3 {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .guests h2 {
@@ -445,8 +477,7 @@
   }
 
   .guest-info p {
-    color: #E03838;
-    font-size: 8px;
+    font-size: 7px;
     line-height: 10px;
   }
 
@@ -464,16 +495,9 @@
   }
 
   /* organizers */
-  #organizers h3{
-    font-size: 18px;
-  }
-
-  #organizers h4{
+  #main-organizers h2, #backups h2, #supporters h2 {
     font-size: 16px;
-  }
-
-  #organizers h5{
-    font-size: 14px;
+    margin-bottom: 10px;
   }
 
   #main-organizer-logo img {
@@ -481,12 +505,13 @@
   }
 
   #main-organizers h3{
-    font-size: 11px;
+    font-size: 9px;
   }
 
   #backups h5 {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 15px;
+    margin-bottom: 10px;
   }
 
   #supporters img {
@@ -586,8 +611,8 @@
   }
 
   #about-body p {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 22px;
     margin: 0;
   }
 
@@ -620,9 +645,9 @@
   }
 
   .event-summary p {
-    font-size: 8px;
-    line-height: 18px;
-    margin:  0;
+    font-size: 10px;
+    line-height: 22px;
+    margin:  8px 15px;
   }
 
   #event-01 .heading h4, #event-02 .heading h4, #event-03 .heading h4{
@@ -649,7 +674,7 @@
   }
 
   .guests h3 {
-    font-size: 10px;
+    font-size: 9px;
     margin-bottom: 3px;
   }
 
@@ -718,17 +743,15 @@
     font-size: 11px;
   }
 
-  /* organizers */
-  #organizers h3{
-    font-size: 18px;
-  }
-
-  #organizers h4{
-    font-size: 16px;
-  }
-
-  #organizers h5{
+  /* contact */
+  ul.contact-lists li i a {
     font-size: 14px;
+  }
+
+  /* organizers */
+  #main-organizers h2, #backups h2, #supporters h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
   }
 
   #main-organizer-logo img {
@@ -736,12 +759,13 @@
   }
 
   #main-organizers h3{
-    font-size: 9px;
+    font-size: 7px;
   }
 
   #backups h5 {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 8px;
+    line-height: 12px;
+    margin-bottom: 10px;
   }
 
   #supporters img {
@@ -750,7 +774,7 @@
 
 
   #supporters h6 {
-    font-size: 7px;
+    font-size: 5px;
   }
 
   /* Tickets */
