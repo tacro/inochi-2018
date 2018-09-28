@@ -58,12 +58,12 @@ section {
 }
 
 #preloader img {
-  width: 150px;
+  width: 120px;
   position: fixed;
   top: 45%;
   left: 50%;
-  margin-top: -80px;
-  margin-left: -75px;
+  margin-top: -65px;
+  margin-left: -60px;
 }
 
 #status {
