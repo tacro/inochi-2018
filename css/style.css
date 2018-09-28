@@ -391,8 +391,16 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   position: relative;
 }
 
+#about-02{
+  background-color: #f4f4f4;
+}
+
 #about-02 .heading{
   margin: 0 0 20px 15px;
+}
+
+#about-02 .content-box-sm {
+  padding-bottom: 0;
 }
 
 #about-02 .container-fluid {
