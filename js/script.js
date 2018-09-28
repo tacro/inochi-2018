@@ -78,7 +78,7 @@ $(window).on('load', function() {
 
   // render map
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 14,
+    zoom: 15,
     center: myLatLng
   });
 
