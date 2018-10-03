@@ -788,7 +788,7 @@ ul.contact-lists li a {
 }
 
 #main-organizers h2, #backups h2, #supporters h2 {
-  font-size: 20px;
+  font-size: 32px;
   margin-bottom: 10px;
 }
 
@@ -805,12 +805,55 @@ ul.contact-lists li a {
   font-size: 14px;
 }
 
-#supporters img {
-  height: 40px;
+#backups img {
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 40px;
 }
 
+
+#supporters h3,
+#supporters h4,
+#supporters h5,
 #supporters h6 {
-  margin-bottom: 15px;
+  margin: 15px 0;
+}
+
+#supporters h3{
+  font-size: 24px;
+}
+
+#supporters h4{
+  font-size: 22px;
+}
+
+#supporters h5{
+  font-size: 20px;
+}
+
+#supporters h6{
+  font-size: 20px;
+}
+
+#supporters img{
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+
+#platinum img {
+  height: 80px;
+}
+
+#silver img {
+  height: 75px;
+}
+
+#bronze img {
+  height: 60px;
+}
+
+#friends img {
+  height: 45px;
 }
 
 /* =====================================
