@@ -803,12 +803,17 @@ ul.contact-lists li a {
 
 #backups h5 {
   font-size: 14px;
+  line-height: 80px;
+  margin-top: 40px;
 }
 
 #backups img {
   height: 80px;
   object-fit: contain;
-  margin-bottom: 40px;
+}
+
+#backups p{
+  font-size: 10px;
 }
 
 
