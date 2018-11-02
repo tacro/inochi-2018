@@ -60,7 +60,6 @@
     min-width: 180px;
     min-height: 180px;
     margin: 45px;
-    position: relative;
   }
 
   .guest-info p {
@@ -132,6 +131,10 @@
 
   .guests h2 span {
     font-size: 18px;
+  }
+
+  .presenter-info {
+    padding: 70px 20px;
   }
 
   .other-guest{
@@ -258,6 +261,22 @@
 
   .guests h2 span {
     font-size: 22px;
+  }
+
+  .presenter-info {
+    padding: 50px 20px;
+  }
+
+  .presenter-info h6 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 2px 0;
+  }
+
+  .presenter-info p{
+    font-size: 12px;
+    line-height: 16px;
+    margin: 8px 0;
   }
 
   .guest-info {
@@ -396,6 +415,21 @@
     max-height: 150px;
     min-width: 150px;
     min-height: 150px;
+  }
+
+  .presenter-info {
+    padding: 120px 20px;
+  }
+
+  .presenter-info h6 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .presenter-info p{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 8px 0;
   }
 
   .other-guest{
@@ -933,6 +967,10 @@
     max-height: 88px;
     min-width: 88px;
     min-height: 88px;
+  }
+
+  .presenter-info {
+    padding: 65px 20px;
   }
 
   .other-guest{
