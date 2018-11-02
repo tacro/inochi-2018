@@ -114,6 +114,29 @@ $(window).on('load', function() {
 // if window's width >= 1200, don't owlCarousel
 
 $(function() {
+  $(".presenters").owlCarousel({
+    items: 3,
+    autoplay: true,
+    smartspeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+    dots: false,
+    responsive: {
+      //breakpoint from 0 up
+      0: {
+        items: 1,
+      },
+      //breakpoint from 400 up
+      768: {
+        items: 3,
+      }
+    },
+  });
+});
+
+$(function() {
   $(".other-guests").owlCarousel({
     items: 3,
     autoplay: true,

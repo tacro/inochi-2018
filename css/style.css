@@ -546,6 +546,10 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   padding: 0;
 }
 
+.presenter {
+  margin:8px;
+  position: relative;
+}
 
 .other-guest{
   max-width: 150px;
@@ -575,12 +579,20 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   transition: all 300ms linear;
 }
 
+.presenter-info,
 .guest-info {
   height: 100%;
   width: 100%;
+}
+.guest-info {
   padding: 60px 10px;
 }
 
+.presenter-info {
+  padding: 80px 20px;
+}
+
+.presenter-info h6,
 .guest-info h6 {
   color: #fff;
   font-size: 16px;
@@ -592,6 +604,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   font-size: 12px;
 }
 
+.presenter-info p,
 .guest-info p {
   color: #E03838;
   font-size: 10px;
@@ -599,6 +612,7 @@ ul.navbar-nav>li>a:hover, ul.navbar-nav>li>a:focus, .navbar-collapse ul.navbar-n
   margin: 8px 0;
 }
 
+.presenter:hover .guest-overlay,
 .other-guest:hover .guest-overlay {
   opacity: 1;
 }
