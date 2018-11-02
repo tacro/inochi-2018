@@ -802,13 +802,20 @@ ul.contact-lists li a {
 
 
 #backups h5 {
-  font-size: 14px;
-  line-height: 80px;
-  margin-top: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 50px;
+}
+
+#backups h6 {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
 }
 
 #backups img {
   height: 80px;
+  margin-top: 20px;
   object-fit: contain;
 }
 
